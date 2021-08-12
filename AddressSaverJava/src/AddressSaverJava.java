@@ -19,19 +19,30 @@ import java.nio.file.Paths;
 
 public class AddressSaverJava {
     public static void main(String[] args) throws IOException {
+        //Creates an arraylist of words to replace in the sales document
         ArrayList<String> thingsToReplace = new ArrayList<String>(Arrays.asList("<DATE>","<NAME>","<ADDRESS>","<CITY>","<STATE>","<ZIPCODE>"));
+        //Loops through each person
         for(int y=1;y<=11;y++) {
+            //Gets the data from the Address file
+            String line = "";
+            try (Stream<String> lines = Files.lines(Paths.get("Address.csv"))) {
+                line = lines.skip(y).findFirst().get();
+            } catch (IOException e) {
+                System.out.println(e);
+            }
+            //Splits the information into an array
+            String[] replacementInfo = line.split(",");
+            //Uses the persons name to create the document name
+            String documentName = replacementInfo[0].substring(0,1) + "_" + replacementInfo[1] + "_JAVA";
+            //Copies SalesLetter to TemplateFile
             copyFile(new File("SalesLetter.dat"),new File("TemplateFile.dat"));
+            //Loops through thingsToReplace
             for (int x = 0; x < thingsToReplace.size(); x++) {
-                String line = "";
-                try (Stream<String> lines = Files.lines(Paths.get("Address.csv"))) {
-                    line = lines.skip(y).findFirst().get();
-                    System.out.println(line);
-                } catch (IOException e) {
-                    System.out.println(e);
-                }
-                String[] replacementInfo = line.split(",");
+                //Stores what to replace it with
                 String stringReplacement = "";
+                /*Depending on the data field,stringReplacement is set to the correct value
+                For example if the data field is "<NAME>",the replacement will be Billy Bob.
+                But if the data field is "<CITY>,the replacement will be Frisco"*/
                 switch (thingsToReplace.get(x)) {
                     case "<DATE>":
                         Format f = new SimpleDateFormat("MM/dd/yy");
@@ -54,46 +65,24 @@ public class AddressSaverJava {
                         stringReplacement = replacementInfo[5];
                         break;
                 }
+                //Replaces the field with the proper information
                 modifyFile("TemplateFile.dat", thingsToReplace.get(x), stringReplacement);
             }
+            //Changes the "<YOURNAME>" field to "Rishik Yechuri"
             modifyFile("TemplateFile.dat", "<YOURNAME>", "Rishik Yechuri");
+            //Converts TemplateFile to a byte array
             byte[] bytes = Files.readAllBytes(Paths.get("TemplateFile.dat"));
-            String nameOfPDF = "Output" + y;
-            OutputStream out = new FileOutputStream(nameOfPDF);
+            //Creates a new file using the modified TemplateFile
+            OutputStream out = new FileOutputStream(documentName);
             out.write(bytes);
             out.close();
         }
     }
-    public static String getPDF() throws IOException {
-
-        File file = new File("TemplateFile.dat");
-        FileInputStream stream = new FileInputStream(file);
-        byte[] buffer = new byte[8192];
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        int bytesRead;
-        while ((bytesRead = stream.read(buffer)) != -1) {
-            baos.write(buffer, 0, bytesRead);
-        }
-        System.out.println("it came back"+baos);
-        byte[] buffer1= baos.toByteArray();
-        String fileName = "Gigachadtest.pdf";
-
-        //stream.close();
-
-
-        FileOutputStream outputStream =
-                new FileOutputStream(fileName);
-
-        outputStream.write(buffer1);
-
-        return fileName;
-
-    }
+    //A function to copy a file to another file
     public static void copyFile(File sourceFile, File destFile) throws IOException {
         if(!destFile.exists()) {
             destFile.createNewFile();
         }
-
         FileChannel source = null;
         FileChannel destination = null;
         try {
@@ -114,14 +103,12 @@ public class AddressSaverJava {
             }
         }
     }
+    //A function to replace a string in a file with another string
     public static void modifyFile(String filePath, String oldString, String newString)
     {
         File fileToBeModified = new File(filePath);
-
         String oldContent = "";
-
         BufferedReader reader = null;
-
         FileWriter writer = null;
 
         try
@@ -129,7 +116,6 @@ public class AddressSaverJava {
             reader = new BufferedReader(new FileReader(fileToBeModified));
 
             //Reading all the lines of input text file into oldContent
-
             String line = reader.readLine();
 
             while (line != null)
@@ -140,11 +126,9 @@ public class AddressSaverJava {
             }
 
             //Replacing oldString with newString in the oldContent
-
             String newContent = oldContent.replaceAll(oldString, newString);
 
             //Rewriting the input text file with newContent
-
             writer = new FileWriter(fileToBeModified);
 
             writer.write(newContent);
@@ -158,9 +142,7 @@ public class AddressSaverJava {
             try
             {
                 //Closing the resources
-
                 reader.close();
-
                 writer.close();
             }
             catch (IOException e)
@@ -169,5 +151,4 @@ public class AddressSaverJava {
             }
         }
     }
-
 }

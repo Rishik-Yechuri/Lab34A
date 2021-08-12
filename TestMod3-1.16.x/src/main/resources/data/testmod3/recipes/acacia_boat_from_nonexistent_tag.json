@@ -1,0 +1,19 @@
+{
+	"_comment": [
+		"Craft an Acacia Boat from a non-existent Tag",
+		"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2751505-ore-dictionary-dependant-item-registration",
+		"This can't be generated from the code because the non-existent Tag gets replaced with the empty Ingredient"
+	],
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"F"
+	],
+	"key": {
+		"F": {
+			"tag": "testmod3:non-existent_tag"
+		}
+	},
+	"result": {
+		"item": "minecraft:acacia_boat"
+	}
+}

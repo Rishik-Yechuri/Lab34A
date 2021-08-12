@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "has_ender_eye=false": {
+      "model": "testmod3:block/right_click_test_without_ender_eye"
+    },
+    "has_ender_eye=true": {
+      "model": "testmod3:block/right_click_test_with_ender_eye"
+    }
+  }
+}

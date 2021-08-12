@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="165dd6c0-ba05-4ad0-aed5-d498def6f92f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AddressSaverJava/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressSaverJava/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressSaverJava/TemplateFile.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressSaverJava/TemplateFile.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressSaverJava/out/production/AddressSaverJava/AddressSaverJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressSaverJava/out/production/AddressSaverJava/AddressSaverJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressSaverJava/src/AddressSaverJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressSaverJava/src/AddressSaverJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BubbleSort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BubbleSort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSMinecraftMod/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../CSMinecraftMod/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComSciTests/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComSciTests/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComSciTests/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComSciTests/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComSciTests/ComSciTests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComSciTests/src/ComSciTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/.idea/libraries/poi_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/Java-Py.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/Quickstart.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Py/src/JavaPy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/Lab34A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/out/production/Lab34A/DoubleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/out/production/Lab34A/Lab34A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/out/production/Lab34A/Student2Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/src/Lab34A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab34A/students2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35A/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35A/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35A/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35A/Lab35A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35A/src/GfxTreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35A/src/Lab35ast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35B/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35B/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35B/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35B/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35B/Lab36B.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab35B/src/Lab35bst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab36B/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab36B/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RiskProbablities/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RiskProbablities/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RiskProbablities/src/RiskProbabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RiskProbablities/src/RiskProbabilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMod3-1.16.x/src/main/java/choonster/FinalBeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMod3-1.16.x/src/main/java/choonster/FinalBeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thiswontwork/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thiswontwork/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thiswontwork/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VERYMAD/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VERYMAD/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VERYMAD/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VERYMAD/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VERYMAD/VERYMAD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WORK/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WORK/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WORK/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WORK/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WORK/WORK.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WordCountJava.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WordCountJava/src/WordCountJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WordCountJava/src/WordCountJava.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1udrcgBtRUO1cwtkU92OEvy0Dom" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="165dd6c0-ba05-4ad0-aed5-d498def6f92f" name="Default Changelist" comment="" />
+      <created>1625006391218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625006391218</updated>
+    </task>
+    <servers />
+  </component>
+</project>

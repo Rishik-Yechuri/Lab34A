@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#plane"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "rotation": 270, "texture": "#base" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#base" },
+				"up": { "uv": [ 16, 0, 0, 16 ], "rotation": 90, "texture": "#side" },
+				"down": { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#side" }
+			}
+		},
+		{
+			"name": "Plane",
+			"from": [ 0, 0, 16 ],
+			"to": [ 16, 16, 16 ],
+			"shade": false,
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 0, 16, 16 ], "rescale": true },
+			"faces": {
+				"south": { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#plane" }
+			}
+		}
+	]
+}

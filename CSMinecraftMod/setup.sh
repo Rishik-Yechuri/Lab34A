@@ -1,1 +1,1 @@
-./gradlew genIntellijRuns --refresh-dependencies
+./gradlew genIntellijRuns --refresh-dependencies --scan
